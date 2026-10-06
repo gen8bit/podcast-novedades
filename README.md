@@ -11,4 +11,4 @@ Genera un .m3u con los últimos episodios de una lista de feeds RSS configurados
 
 ## URL para escucharlos es:
 
-https://raw.githubusercontent.com/TU_USUARIO/podcast-novedades/main/novedades.m3u
+https://raw.githubusercontent.com/gen8bit/podcast-novedades/main/novedades.m3u
