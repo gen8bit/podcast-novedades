@@ -1,0 +1,31 @@
+# Archivo de salida
+output: novedades.m3u
+
+# Número por defecto de episodios recientes a extraer por feed.
+# Cada feed puede sobrescribirlo con su propio "limit".
+default_limit: 3
+
+# Orden final del .m3u:
+#   by-date      → todos los episodios ordenados por fecha (más reciente primero)
+#   round-robin  → uno de cada feed, alternando (A1, B1, C1, A2, B2, C2...)
+#   concatenate  → todos los del feed A, luego todos los del feed B...
+strategy: by-date
+
+# Orden dentro de cada feed:
+#   newest-first  → del más nuevo al más antiguo
+#   oldest-first  → del más antiguo al más nuevo
+feed_order: newest-first
+
+feeds:
+  - name: "Retro Entre Amigos"
+    url: "https://feeds.ivoox.com/feed_fg_f138739_filtro_1.xml"
+    limit: 3    # solo los 3 episodios más recientes
+
+  # Añade más feeds aquí:
+  # - name: "Otro Podcast"
+  #   url: "https://feeds.ivoox.com/feed_fg_XXXXXX_filtro_1.xml"
+  #   limit: 2
+  #
+  # - name: "Y otro más"
+  #   url: "https://..."
+  #   # sin limit → usa default_limit (3)
