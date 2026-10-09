@@ -19,15 +19,11 @@ feed_order: newest-first
 feeds:
   - name: "Retro Entre Amigos"
     url: "https://feeds.ivoox.com/feed_fg_f138739_filtro_1.xml"
-    limit: 3    # solo los 3 episodios más recientes
-
-  - name: "Yo tenia un juego"
-    url: "https://feeds.ivoox.com/feed_fg_f1614656_filtro_1.xml"
-    limit: 3    # solo los 3 episodios más recientes
+    limit: 2    # solo los X episodios más recientes
 
   - name: "El Mundo del Spectrum Podcast"
     url: "https://feeds.ivoox.com/feed_fg_f141937_filtro_1.xml"
-    limit: 3    # solo los 3 episodios más recientes
+    limit: 2    # solo los X episodios más recientes
 
     
   # Añade más feeds aquí:
